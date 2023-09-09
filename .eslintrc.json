@@ -167,6 +167,7 @@
     "no-underscore-dangle": "off",
     "react/require-default-props": "off",
     "jsx-a11y/control-has-associated-label": "off",
-    "@typescript-eslint/no-non-null-assertion": "off"
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "react/jsx-no-bind":"off"
   }
 }
