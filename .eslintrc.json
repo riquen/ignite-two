@@ -57,7 +57,8 @@
         "singleQuote": true,
         "trailingComma": "all",
         "arrowParens": "always",
-        "semi": false
+        "semi": false,
+        "endOfLine": "auto"
       },
       {
         "usePrettierrc": false
