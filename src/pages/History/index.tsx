@@ -27,7 +27,9 @@ export function History() {
               <tr key={id}>
                 <td>{task}</td>
                 <td>{minutesAmount}</td>
-                <td>{formatDistanceToNow(startDate, { addSuffix: true, locale: ptBR })}</td>
+                <td>
+                  {formatDistanceToNow(new Date(startDate), { addSuffix: true, locale: ptBR })}
+                </td>
                 <td>
                   {finishedDate && <Status statusColor="green">Concluído</Status>}
                   {interruptedDate && <Status statusColor="red">Interrompido</Status>}
